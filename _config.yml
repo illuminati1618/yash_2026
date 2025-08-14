@@ -1,17 +1,16 @@
-title: Open Coding 
-description: "Class of 2026"
-owner_name: John Mortensen
-github_username: jm1021 
-github_repo: "student" 
-baseurl: "/student" 
+title: Yash Parikh CSA 
+description: "Class of 2027"
+owner_name: Yash Parikh
+github_username: illuminati1618 
+github_repo: "yash_2026" 
+baseurl: "/yash_2026" 
 future: true
 remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
-    - { platform: github, user_url: "https://github.com/open-coding-society" }
-    - { platform: x, user_url: "https://x.com/Open_Coding" }
-    - { platform: youtube, user_url: "https://www.youtube.com/@OpenCodingSociety" } 
+    - { platform: github, user_url: "https://github.com/illuminati1618" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@yashparikh1618" } 
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
