@@ -125,11 +125,11 @@ DEFAULT_DATA = {
 
 | Commit | Description |
 |--------|-------------|
-| `ea121c9` | Create a new export/import API with dependency-aware ordering |
-| `fd83605` | Add pagination to data export/import API with `joinedload` for N+1 prevention |
-| `0553210` | Implement chunked exporting to avoid nginx timeout |
-| `9e39f85` | Add chunking to migration/restore scripts (215 insertions) |
-| `2854221` | Add error handling and retry catches to migration and restoration |
+| [`ea121c9`](https://github.com/Open-Coding-Society/flask-tracking/commit/ea121c9) | Create a new export/import API with dependency-aware ordering |
+| [`fd83605`](https://github.com/Open-Coding-Society/flask-tracking/commit/fd83605) | Add pagination to data export/import API with `joinedload` for N+1 prevention |
+| [`0553210`](https://github.com/Open-Coding-Society/flask-tracking/commit/0553210) | Implement chunked exporting to avoid nginx timeout |
+| [`9e39f85`](https://github.com/Open-Coding-Society/flask-tracking/commit/9e39f85) | Add chunking to migration/restore scripts (215 insertions) |
+| [`2854221`](https://github.com/Open-Coding-Society/flask-tracking/commit/2854221) | Add error handling and retry catches to migration and restoration |
 
 ### The Data Merge
 
@@ -152,9 +152,9 @@ I also contributed to Spring's migration tooling:
 - **`mysqlrestore.py`** — Restores SQLite back to MySQL with reverse type mapping
 
 Key Spring commits:
-- `4f5593fd` — Create local-to-production database script
-- `72c38bf6` — Force admin role requirement for exports/imports API
-- `090fe96e` — Add local-to-prod documentation into Spring README
+- [`4f5593fd`](https://github.com/CyberLord09/spring-tracking/commit/72c38bf6) — Create local-to-production database script
+- [`72c38bf6`](https://github.com/CyberLord09/spring-tracking/commit/72c38bf6) — Force admin role requirement for exports/imports API
+- [`090fe96e`](https://github.com/CyberLord09/spring-tracking/commit/090fe96e) — Add local-to-prod documentation into Spring README
 
 ---
 
@@ -217,5 +217,3 @@ A cron-based snapshot system that handles both database types:
 ## Reflection
 
 The biggest lesson this trimester was that **data loss is not an "if" but a "when"**. Having experienced it, the priority shifted from reactive fixes to proactive protection. The export/import API and migration scripts turned a multi-hour manual recovery into a repeatable 10-minute process. The database automator takes it further — the goal is to detect problems before they cause damage and guarantee recovery when they do.
-
-No AI was used in the making of these scripts.
